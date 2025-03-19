@@ -1,7 +1,7 @@
 package edu.kis.vh.nursery;
 
-public class defaultCountingOutRhymer {
-
+public class DefaultCountingOutRhymer {
+    
     private int[] NUMBERS = new int[12];
 
     public int total = -1;
