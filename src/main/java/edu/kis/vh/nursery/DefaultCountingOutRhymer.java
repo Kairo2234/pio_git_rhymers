@@ -1,7 +1,11 @@
 package edu.kis.vh.nursery;
 
-public class DefaultCountingOutRhymer {
+public class defaultCountingOutRhymer {
+<<<<<<< HEAD:src/main/java/edu/kis/vh/nursery/defaultCountingOutRhymer.java
     
+=======
+
+>>>>>>> 684c530 (Poprawienie nazw metod oraz class):src/main/java/edu/kis/vh/nursery/defaultCountingOutRhymer.java
     private int[] NUMBERS = new int[12];
 
     public int total = -1;
