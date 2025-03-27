@@ -10,7 +10,7 @@ public class IntLinkedList {
             last = new Node(i);
         else {
             last.next = new Node(i);
-            last.next.prev = last;
+            last.next.prev = asd;
             last = last.next;
         }
     }
