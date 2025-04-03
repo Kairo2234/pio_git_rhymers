@@ -1,14 +1,13 @@
 package edu.kis.vh.nursery;
 
-public class defaultCountingOutRhymer {
-<<<<<<< HEAD:src/main/java/edu/kis/vh/nursery/defaultCountingOutRhymer.java
-    
-=======
+public class DefaultCountingOutRhymer {
 
->>>>>>> 684c530 (Poprawienie nazw metod oraz class):src/main/java/edu/kis/vh/nursery/defaultCountingOutRhymer.java
     private int[] NUMBERS = new int[12];
+    private int total = -1;
 
-    public int total = -1;
+    public int getTotal() {
+        return total;
+    }
 
     public void countIn(int in) {
         if (!isFull())
@@ -23,7 +22,7 @@ public class defaultCountingOutRhymer {
         return total == 11;
     }
 
-    protected int peekaboo() {
+    int peekaboo() {
         if (callCheck())
             return -1;
         return NUMBERS[total];
@@ -34,5 +33,4 @@ public class defaultCountingOutRhymer {
             return -1;
         return NUMBERS[total--];
     }
-
 }
