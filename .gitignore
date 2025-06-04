@@ -1,0 +1,51 @@
+# === JAVA ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === LOGS ===
+*.log
+
+# === BUILD OUTPUT ===
+/target/
+/out/
+/build/
+
+# === IDE: IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+
+# === OS SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+# === MAVEN ===
+log/
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# === GRADLE ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === ENV / SECRETS ===
+.env
+*.env
+*.key
+*.keystore
+*.pem
+*.jks
+
+# === TEST REPORTS ===
+/test-output/
+/surefire-reports/
+/jacoco.exec
+
+# === OTHER ===
+*.swp
+*.swo
